@@ -17,5 +17,7 @@ mkdir -p \
   /tmp/nginx/cache/private \
   /var/cache/nginx/proxy_temp
 
+export DISABLE_IPV6="true"
+
 # Run
 exec nginx
